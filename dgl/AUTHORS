@@ -1,0 +1,11 @@
+Developed by Andrew A. Ray (dtkman@sourceforge.net), with funding, vision
+and encouragement provided by Ron Kriz (rkriz@vt.edu)
+
+John Kelso has updated parts of the API for usage on the NIST RAVE (2006),
+and added functionality to the DOSG components.
+
+Patrick Shinpaugh has helped with releases and maintenance (2005-2006).
+
+Thank you goes to Patrick Shinpaugh for ideas for the code (and DIVERSE 3
+contributions), and to Daniel Larimer and Mike Shore for contributing to
+DIVERSE 3 which helped DGL become what it is.

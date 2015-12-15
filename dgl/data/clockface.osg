@@ -1,0 +1,1224 @@
+Group {
+  DataVariance DYNAMIC
+  nodeMask 0xffffffff
+  cullingActive TRUE
+  num_children 1
+  Group {
+    DataVariance STATIC
+    nodeMask 0xffffffff
+    cullingActive TRUE
+    num_children 1
+    Group {
+      DataVariance DYNAMIC
+      nodeMask 0xffffffff
+      cullingActive TRUE
+      num_children 2
+      Group {
+        DataVariance DYNAMIC
+        nodeMask 0xffffffff
+        cullingActive TRUE
+        num_children 1
+        Group {
+          DataVariance STATIC
+          nodeMask 0xffffffff
+          cullingActive TRUE
+          num_children 1
+          Group {
+            DataVariance DYNAMIC
+            nodeMask 0xffffffff
+            cullingActive TRUE
+            num_children 1
+            Group {
+              DataVariance DYNAMIC
+              nodeMask 0xffffffff
+              cullingActive TRUE
+              num_children 1
+              Group {
+                DataVariance STATIC
+                nodeMask 0xffffffff
+                cullingActive TRUE
+                num_children 1
+                Group {
+                  DataVariance DYNAMIC
+                  nodeMask 0xffffffff
+                  cullingActive TRUE
+                  num_children 1
+                  Group {
+                    DataVariance DYNAMIC
+                    nodeMask 0xffffffff
+                    cullingActive TRUE
+                    num_children 1
+                    Group {
+                      DataVariance STATIC
+                      nodeMask 0xffffffff
+                      cullingActive TRUE
+                      num_children 1
+                      Group {
+                        DataVariance DYNAMIC
+                        nodeMask 0xffffffff
+                        cullingActive TRUE
+                        num_children 1
+                        Group {
+                          DataVariance DYNAMIC
+                          nodeMask 0xffffffff
+                          cullingActive TRUE
+                          num_children 1
+                          Group {
+                            DataVariance DYNAMIC
+                            nodeMask 0xffffffff
+                            cullingActive TRUE
+                            num_children 6
+                            Geode {
+                              DataVariance DYNAMIC
+                              nodeMask 0xffffffff
+                              cullingActive TRUE
+                              num_drawables 1
+                              Geometry {
+                                DataVariance DYNAMIC
+                                useDisplayList TRUE
+                                useVertexBufferObjects FALSE
+                                PrimitiveSets 1
+                                {
+                                  DrawArrays POLYGON 0 4
+                                }
+                                VertexArray Vec3Array 4
+                                {
+                                  -0.0525 0.105 -0.025
+                                  0.0525 0.105 -0.025
+                                  0.0525 -0.105 -0.025
+                                  -0.0525 -0.105 -0.025
+                                }
+                                NormalBinding PER_VERTEX
+                                NormalArray Vec3Array 4
+                                {
+                                  0 0 -1
+                                  0 0 -1
+                                  0 0 -1
+                                  0 0 -1
+                                }
+                                ColorBinding PER_VERTEX
+                                ColorArray Vec4Array 4
+                                {
+                                  0 1 0 1
+                                  0 1 0 1
+                                  0 1 0 1
+                                  0 1 0 1
+                                }
+                              }
+                            }
+                            Geode {
+                              DataVariance DYNAMIC
+                              nodeMask 0xffffffff
+                              cullingActive TRUE
+                              num_drawables 1
+                              Geometry {
+                                DataVariance DYNAMIC
+                                useDisplayList TRUE
+                                useVertexBufferObjects FALSE
+                                PrimitiveSets 1
+                                {
+                                  DrawArrays POLYGON 0 4
+                                }
+                                VertexArray Vec3Array 4
+                                {
+                                  0.0525 0.105 1.025
+                                  -0.0525 0.105 1.025
+                                  -0.0525 -0.105 1.025
+                                  0.0525 -0.105 1.025
+                                }
+                                NormalBinding PER_VERTEX
+                                NormalArray Vec3Array 4
+                                {
+                                  0 0 1
+                                  0 0 1
+                                  0 0 1
+                                  0 0 1
+                                }
+                                ColorBinding PER_VERTEX
+                                ColorArray Vec4Array 4
+                                {
+                                  0 1 0 1
+                                  0 1 0 1
+                                  0 1 0 1
+                                  0 1 0 1
+                                }
+                              }
+                            }
+                            Geode {
+                              DataVariance DYNAMIC
+                              nodeMask 0xffffffff
+                              cullingActive TRUE
+                              num_drawables 1
+                              Geometry {
+                                DataVariance DYNAMIC
+                                useDisplayList TRUE
+                                useVertexBufferObjects FALSE
+                                PrimitiveSets 1
+                                {
+                                  DrawArrays POLYGON 0 4
+                                }
+                                VertexArray Vec3Array 4
+                                {
+                                  -0.0525 0.105 1.025
+                                  0.0525 0.105 1.025
+                                  0.0525 0.105 -0.025
+                                  -0.0525 0.105 -0.025
+                                }
+                                NormalBinding PER_VERTEX
+                                NormalArray Vec3Array 4
+                                {
+                                  0 1 0
+                                  0 1 0
+                                  0 1 0
+                                  0 1 0
+                                }
+                                ColorBinding PER_VERTEX
+                                ColorArray Vec4Array 4
+                                {
+                                  0 1 0 1
+                                  0 1 0 1
+                                  0 1 0 1
+                                  0 1 0 1
+                                }
+                              }
+                            }
+                            Geode {
+                              DataVariance DYNAMIC
+                              nodeMask 0xffffffff
+                              cullingActive TRUE
+                              num_drawables 1
+                              Geometry {
+                                DataVariance DYNAMIC
+                                useDisplayList TRUE
+                                useVertexBufferObjects FALSE
+                                PrimitiveSets 1
+                                {
+                                  DrawArrays POLYGON 0 4
+                                }
+                                VertexArray Vec3Array 4
+                                {
+                                  -0.0525 -0.105 -0.025
+                                  0.0525 -0.105 -0.025
+                                  0.0525 -0.105 1.025
+                                  -0.0525 -0.105 1.025
+                                }
+                                NormalBinding PER_VERTEX
+                                NormalArray Vec3Array 4
+                                {
+                                  0 -1 0
+                                  0 -1 0
+                                  0 -1 0
+                                  0 -1 0
+                                }
+                                ColorBinding PER_VERTEX
+                                ColorArray Vec4Array 4
+                                {
+                                  0 1 0 1
+                                  0 1 0 1
+                                  0 1 0 1
+                                  0 1 0 1
+                                }
+                              }
+                            }
+                            Geode {
+                              DataVariance DYNAMIC
+                              nodeMask 0xffffffff
+                              cullingActive TRUE
+                              num_drawables 1
+                              Geometry {
+                                DataVariance DYNAMIC
+                                useDisplayList TRUE
+                                useVertexBufferObjects FALSE
+                                PrimitiveSets 1
+                                {
+                                  DrawArrays POLYGON 0 4
+                                }
+                                VertexArray Vec3Array 4
+                                {
+                                  0.0525 0.105 -0.025
+                                  0.0525 0.105 1.025
+                                  0.0525 -0.105 1.025
+                                  0.0525 -0.105 -0.025
+                                }
+                                NormalBinding PER_VERTEX
+                                NormalArray Vec3Array 4
+                                {
+                                  1 0 0
+                                  1 0 0
+                                  1 0 0
+                                  1 0 0
+                                }
+                                ColorBinding PER_VERTEX
+                                ColorArray Vec4Array 4
+                                {
+                                  0 1 0 1
+                                  0 1 0 1
+                                  0 1 0 1
+                                  0 1 0 1
+                                }
+                              }
+                            }
+                            Geode {
+                              DataVariance DYNAMIC
+                              nodeMask 0xffffffff
+                              cullingActive TRUE
+                              num_drawables 1
+                              Geometry {
+                                DataVariance DYNAMIC
+                                useDisplayList TRUE
+                                useVertexBufferObjects FALSE
+                                PrimitiveSets 1
+                                {
+                                  DrawArrays POLYGON 0 4
+                                }
+                                VertexArray Vec3Array 4
+                                {
+                                  -0.0525 0.105 1.025
+                                  -0.0525 0.105 -0.025
+                                  -0.0525 -0.105 -0.025
+                                  -0.0525 -0.105 1.025
+                                }
+                                NormalBinding PER_VERTEX
+                                NormalArray Vec3Array 4
+                                {
+                                  -1 0 0
+                                  -1 0 0
+                                  -1 0 0
+                                  -1 0 0
+                                }
+                                ColorBinding PER_VERTEX
+                                ColorArray Vec4Array 4
+                                {
+                                  0 1 0 1
+                                  0 1 0 1
+                                  0 1 0 1
+                                  0 1 0 1
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+      Group {
+        DataVariance DYNAMIC
+        nodeMask 0xffffffff
+        cullingActive TRUE
+        num_children 1
+        Group {
+          DataVariance STATIC
+          nodeMask 0xffffffff
+          cullingActive TRUE
+          num_children 1
+          Group {
+            DataVariance DYNAMIC
+            nodeMask 0xffffffff
+            cullingActive TRUE
+            num_children 1
+            Group {
+              DataVariance DYNAMIC
+              nodeMask 0xffffffff
+              cullingActive TRUE
+              num_children 1
+              Group {
+                DataVariance STATIC
+                nodeMask 0xffffffff
+                cullingActive TRUE
+                num_children 1
+                Group {
+                  DataVariance DYNAMIC
+                  nodeMask 0xffffffff
+                  cullingActive TRUE
+                  num_children 1
+                  Group {
+                    DataVariance DYNAMIC
+                    nodeMask 0xffffffff
+                    cullingActive TRUE
+                    num_children 1
+                    Group {
+                      DataVariance DYNAMIC
+                      nodeMask 0xffffffff
+                      cullingActive TRUE
+                      num_children 18
+                      Geode {
+                        DataVariance DYNAMIC
+                        nodeMask 0xffffffff
+                        cullingActive TRUE
+                        num_drawables 1
+                        Geometry {
+                          DataVariance DYNAMIC
+                          StateSet {
+                            DataVariance STATIC
+                            rendering_hint DEFAULT_BIN
+                            renderBinMode INHERIT
+                            GL_BLEND ON
+                          }
+                          useDisplayList TRUE
+                          useVertexBufferObjects FALSE
+                          PrimitiveSets 1
+                          {
+                            DrawArrays POLYGON 0 16
+                          }
+                          VertexArray Vec3Array 16
+                          {
+                            1 0.0499999 0
+                            0.927184 0.0499999 0.374607
+                            0.707107 0.0499999 0.707107
+                            0.390731 0.0499999 0.920505
+                            0 0.0499999 1
+                            -0.374607 0.0499999 0.927184
+                            -0.707107 0.0499999 0.707107
+                            -0.920505 0.0499999 0.390731
+                            -1 0.0499999 0
+                            -0.927184 0.0499999 -0.374607
+                            -0.707107 0.0499999 -0.707107
+                            -0.390731 0.0499999 -0.920505
+                            0 0.0499999 -1
+                            0.374607 0.0499999 -0.927184
+                            0.707107 0.0499999 -0.707107
+                            0.920505 0.0499999 -0.390731
+                          }
+                          NormalBinding PER_VERTEX
+                          NormalArray Vec3Array 16
+                          {
+                            0 1 0
+                            0 1 0
+                            0 1 0
+                            0 1 0
+                            0 1 0
+                            0 1 0
+                            0 1 0
+                            0 1 0
+                            0 1 0
+                            0 1 0
+                            0 1 0
+                            0 1 0
+                            0 1 0
+                            0 1 0
+                            0 1 0
+                            0 1 0
+                          }
+                          ColorBinding PER_VERTEX
+                          ColorArray Vec4Array 16
+                          {
+                            0 0 1 0.5
+                            0 0 1 0.5
+                            0 0 1 0.5
+                            0 0 1 0.5
+                            0 0 1 0.5
+                            0 0 1 0.5
+                            0 0 1 0.5
+                            0 0 1 0.5
+                            0 0 1 0.5
+                            0 0 1 0.5
+                            0 0 1 0.5
+                            0 0 1 0.5
+                            0 0 1 0.5
+                            0 0 1 0.5
+                            0 0 1 0.5
+                            0 0 1 0.5
+                          }
+                        }
+                      }
+                      Geode {
+                        DataVariance DYNAMIC
+                        nodeMask 0xffffffff
+                        cullingActive TRUE
+                        num_drawables 1
+                        Geometry {
+                          DataVariance DYNAMIC
+                          StateSet {
+                            DataVariance STATIC
+                            rendering_hint DEFAULT_BIN
+                            renderBinMode INHERIT
+                            GL_BLEND ON
+                          }
+                          useDisplayList TRUE
+                          useVertexBufferObjects FALSE
+                          PrimitiveSets 1
+                          {
+                            DrawArrays POLYGON 0 16
+                          }
+                          VertexArray Vec3Array 16
+                          {
+                            1 -0.0499999 0
+                            0.927184 -0.0499999 0.374607
+                            0.707107 -0.0499999 0.707107
+                            0.390731 -0.0499999 0.920505
+                            0 -0.0499999 1
+                            -0.374607 -0.0499999 0.927184
+                            -0.707107 -0.0499999 0.707107
+                            -0.920505 -0.0499999 0.390731
+                            -1 -0.0499999 0
+                            -0.927184 -0.0499999 -0.374607
+                            -0.707107 -0.0499999 -0.707107
+                            -0.390731 -0.0499999 -0.920505
+                            0 -0.0499999 -1
+                            0.374607 -0.0499999 -0.927184
+                            0.707107 -0.0499999 -0.707107
+                            0.920505 -0.0499999 -0.390731
+                          }
+                          NormalBinding PER_VERTEX
+                          NormalArray Vec3Array 16
+                          {
+                            0 -1 0
+                            0 -1 0
+                            0 -1 0
+                            0 -1 0
+                            0 -1 0
+                            0 -1 0
+                            0 -1 0
+                            0 -1 0
+                            0 -1 0
+                            0 -1 0
+                            0 -1 0
+                            0 -1 0
+                            0 -1 0
+                            0 -1 0
+                            0 -1 0
+                            0 -1 0
+                          }
+                          ColorBinding PER_VERTEX
+                          ColorArray Vec4Array 16
+                          {
+                            0 0 1 0.5
+                            0 0 1 0.5
+                            0 0 1 0.5
+                            0 0 1 0.5
+                            0 0 1 0.5
+                            0 0 1 0.5
+                            0 0 1 0.5
+                            0 0 1 0.5
+                            0 0 1 0.5
+                            0 0 1 0.5
+                            0 0 1 0.5
+                            0 0 1 0.5
+                            0 0 1 0.5
+                            0 0 1 0.5
+                            0 0 1 0.5
+                            0 0 1 0.5
+                          }
+                        }
+                      }
+                      Geode {
+                        DataVariance DYNAMIC
+                        nodeMask 0xffffffff
+                        cullingActive TRUE
+                        num_drawables 1
+                        Geometry {
+                          DataVariance DYNAMIC
+                          StateSet {
+                            DataVariance STATIC
+                            rendering_hint DEFAULT_BIN
+                            renderBinMode INHERIT
+                            GL_BLEND ON
+                          }
+                          useDisplayList TRUE
+                          useVertexBufferObjects FALSE
+                          PrimitiveSets 1
+                          {
+                            DrawArrays POLYGON 0 4
+                          }
+                          VertexArray Vec3Array 4
+                          {
+                            1 0.0499999 0
+                            0.927184 0.0499999 0.374607
+                            0.927184 -0.0499999 0.374607
+                            1 -0.0499999 0
+                          }
+                          NormalBinding PER_VERTEX
+                          NormalArray Vec3Array 4
+                          {
+                            1 0 0
+                            0.927184 0 0.374607
+                            0.927184 0 0.374607
+                            1 0 0
+                          }
+                          ColorBinding PER_VERTEX
+                          ColorArray Vec4Array 4
+                          {
+                            0 0 1 0.5
+                            0 0 1 0.5
+                            0 0 1 0.5
+                            0 0 1 0.5
+                          }
+                        }
+                      }
+                      Geode {
+                        DataVariance DYNAMIC
+                        nodeMask 0xffffffff
+                        cullingActive TRUE
+                        num_drawables 1
+                        Geometry {
+                          DataVariance DYNAMIC
+                          StateSet {
+                            DataVariance STATIC
+                            rendering_hint DEFAULT_BIN
+                            renderBinMode INHERIT
+                            GL_BLEND ON
+                          }
+                          useDisplayList TRUE
+                          useVertexBufferObjects FALSE
+                          PrimitiveSets 1
+                          {
+                            DrawArrays POLYGON 0 4
+                          }
+                          VertexArray Vec3Array 4
+                          {
+                            0.927184 0.0499999 0.374607
+                            0.707107 0.0499999 0.707107
+                            0.707107 -0.0499999 0.707107
+                            0.927184 -0.0499999 0.374607
+                          }
+                          NormalBinding PER_VERTEX
+                          NormalArray Vec3Array 4
+                          {
+                            0.927184 0 0.374607
+                            0.707107 0 0.707107
+                            0.707107 0 0.707107
+                            0.927184 0 0.374607
+                          }
+                          ColorBinding PER_VERTEX
+                          ColorArray Vec4Array 4
+                          {
+                            0 0 1 0.5
+                            0 0 1 0.5
+                            0 0 1 0.5
+                            0 0 1 0.5
+                          }
+                        }
+                      }
+                      Geode {
+                        DataVariance DYNAMIC
+                        nodeMask 0xffffffff
+                        cullingActive TRUE
+                        num_drawables 1
+                        Geometry {
+                          DataVariance DYNAMIC
+                          StateSet {
+                            DataVariance STATIC
+                            rendering_hint DEFAULT_BIN
+                            renderBinMode INHERIT
+                            GL_BLEND ON
+                          }
+                          useDisplayList TRUE
+                          useVertexBufferObjects FALSE
+                          PrimitiveSets 1
+                          {
+                            DrawArrays POLYGON 0 4
+                          }
+                          VertexArray Vec3Array 4
+                          {
+                            0.707107 0.0499999 0.707107
+                            0.390731 0.0499999 0.920505
+                            0.390731 -0.0499999 0.920505
+                            0.707107 -0.0499999 0.707107
+                          }
+                          NormalBinding PER_VERTEX
+                          NormalArray Vec3Array 4
+                          {
+                            0.707107 0 0.707107
+                            0.390731 0 0.920505
+                            0.390731 0 0.920505
+                            0.707107 0 0.707107
+                          }
+                          ColorBinding PER_VERTEX
+                          ColorArray Vec4Array 4
+                          {
+                            0 0 1 0.5
+                            0 0 1 0.5
+                            0 0 1 0.5
+                            0 0 1 0.5
+                          }
+                        }
+                      }
+                      Geode {
+                        DataVariance DYNAMIC
+                        nodeMask 0xffffffff
+                        cullingActive TRUE
+                        num_drawables 1
+                        Geometry {
+                          DataVariance DYNAMIC
+                          StateSet {
+                            DataVariance STATIC
+                            rendering_hint DEFAULT_BIN
+                            renderBinMode INHERIT
+                            GL_BLEND ON
+                          }
+                          useDisplayList TRUE
+                          useVertexBufferObjects FALSE
+                          PrimitiveSets 1
+                          {
+                            DrawArrays POLYGON 0 4
+                          }
+                          VertexArray Vec3Array 4
+                          {
+                            0.390731 0.0499999 0.920505
+                            0 0.0499999 1
+                            0 -0.0499999 1
+                            0.390731 -0.0499999 0.920505
+                          }
+                          NormalBinding PER_VERTEX
+                          NormalArray Vec3Array 4
+                          {
+                            0.390731 0 0.920505
+                            0 0 1
+                            0 0 1
+                            0.390731 0 0.920505
+                          }
+                          ColorBinding PER_VERTEX
+                          ColorArray Vec4Array 4
+                          {
+                            0 0 1 0.5
+                            0 0 1 0.5
+                            0 0 1 0.5
+                            0 0 1 0.5
+                          }
+                        }
+                      }
+                      Geode {
+                        DataVariance DYNAMIC
+                        nodeMask 0xffffffff
+                        cullingActive TRUE
+                        num_drawables 1
+                        Geometry {
+                          DataVariance DYNAMIC
+                          StateSet {
+                            DataVariance STATIC
+                            rendering_hint DEFAULT_BIN
+                            renderBinMode INHERIT
+                            GL_BLEND ON
+                          }
+                          useDisplayList TRUE
+                          useVertexBufferObjects FALSE
+                          PrimitiveSets 1
+                          {
+                            DrawArrays POLYGON 0 4
+                          }
+                          VertexArray Vec3Array 4
+                          {
+                            0 0.0499999 1
+                            -0.374607 0.0499999 0.927184
+                            -0.374607 -0.0499999 0.927184
+                            0 -0.0499999 1
+                          }
+                          NormalBinding PER_VERTEX
+                          NormalArray Vec3Array 4
+                          {
+                            0 0 1
+                            -0.374607 0 0.927184
+                            -0.374607 0 0.927184
+                            0 0 1
+                          }
+                          ColorBinding PER_VERTEX
+                          ColorArray Vec4Array 4
+                          {
+                            0 0 1 0.5
+                            0 0 1 0.5
+                            0 0 1 0.5
+                            0 0 1 0.5
+                          }
+                        }
+                      }
+                      Geode {
+                        DataVariance DYNAMIC
+                        nodeMask 0xffffffff
+                        cullingActive TRUE
+                        num_drawables 1
+                        Geometry {
+                          DataVariance DYNAMIC
+                          StateSet {
+                            DataVariance STATIC
+                            rendering_hint DEFAULT_BIN
+                            renderBinMode INHERIT
+                            GL_BLEND ON
+                          }
+                          useDisplayList TRUE
+                          useVertexBufferObjects FALSE
+                          PrimitiveSets 1
+                          {
+                            DrawArrays POLYGON 0 4
+                          }
+                          VertexArray Vec3Array 4
+                          {
+                            -0.374607 0.0499999 0.927184
+                            -0.707107 0.0499999 0.707107
+                            -0.707107 -0.0499999 0.707107
+                            -0.374607 -0.0499999 0.927184
+                          }
+                          NormalBinding PER_VERTEX
+                          NormalArray Vec3Array 4
+                          {
+                            -0.374607 0 0.927184
+                            -0.707107 0 0.707107
+                            -0.707107 0 0.707107
+                            -0.374607 0 0.927184
+                          }
+                          ColorBinding PER_VERTEX
+                          ColorArray Vec4Array 4
+                          {
+                            0 0 1 0.5
+                            0 0 1 0.5
+                            0 0 1 0.5
+                            0 0 1 0.5
+                          }
+                        }
+                      }
+                      Geode {
+                        DataVariance DYNAMIC
+                        nodeMask 0xffffffff
+                        cullingActive TRUE
+                        num_drawables 1
+                        Geometry {
+                          DataVariance DYNAMIC
+                          StateSet {
+                            DataVariance STATIC
+                            rendering_hint DEFAULT_BIN
+                            renderBinMode INHERIT
+                            GL_BLEND ON
+                          }
+                          useDisplayList TRUE
+                          useVertexBufferObjects FALSE
+                          PrimitiveSets 1
+                          {
+                            DrawArrays POLYGON 0 4
+                          }
+                          VertexArray Vec3Array 4
+                          {
+                            -0.707107 0.0499999 0.707107
+                            -0.920505 0.0499999 0.390731
+                            -0.920505 -0.0499999 0.390731
+                            -0.707107 -0.0499999 0.707107
+                          }
+                          NormalBinding PER_VERTEX
+                          NormalArray Vec3Array 4
+                          {
+                            -0.707107 0 0.707107
+                            -0.920505 0 0.390731
+                            -0.920505 0 0.390731
+                            -0.707107 0 0.707107
+                          }
+                          ColorBinding PER_VERTEX
+                          ColorArray Vec4Array 4
+                          {
+                            0 0 1 0.5
+                            0 0 1 0.5
+                            0 0 1 0.5
+                            0 0 1 0.5
+                          }
+                        }
+                      }
+                      Geode {
+                        DataVariance DYNAMIC
+                        nodeMask 0xffffffff
+                        cullingActive TRUE
+                        num_drawables 1
+                        Geometry {
+                          DataVariance DYNAMIC
+                          StateSet {
+                            DataVariance STATIC
+                            rendering_hint DEFAULT_BIN
+                            renderBinMode INHERIT
+                            GL_BLEND ON
+                          }
+                          useDisplayList TRUE
+                          useVertexBufferObjects FALSE
+                          PrimitiveSets 1
+                          {
+                            DrawArrays POLYGON 0 4
+                          }
+                          VertexArray Vec3Array 4
+                          {
+                            -0.920505 0.0499999 0.390731
+                            -1 0.0499999 0
+                            -1 -0.0499999 0
+                            -0.920505 -0.0499999 0.390731
+                          }
+                          NormalBinding PER_VERTEX
+                          NormalArray Vec3Array 4
+                          {
+                            -0.920505 0 0.390731
+                            -1 0 0
+                            -1 0 0
+                            -0.920505 0 0.390731
+                          }
+                          ColorBinding PER_VERTEX
+                          ColorArray Vec4Array 4
+                          {
+                            0 0 1 0.5
+                            0 0 1 0.5
+                            0 0 1 0.5
+                            0 0 1 0.5
+                          }
+                        }
+                      }
+                      Geode {
+                        DataVariance DYNAMIC
+                        nodeMask 0xffffffff
+                        cullingActive TRUE
+                        num_drawables 1
+                        Geometry {
+                          DataVariance DYNAMIC
+                          StateSet {
+                            DataVariance STATIC
+                            rendering_hint DEFAULT_BIN
+                            renderBinMode INHERIT
+                            GL_BLEND ON
+                          }
+                          useDisplayList TRUE
+                          useVertexBufferObjects FALSE
+                          PrimitiveSets 1
+                          {
+                            DrawArrays POLYGON 0 4
+                          }
+                          VertexArray Vec3Array 4
+                          {
+                            -1 0.0499999 0
+                            -0.927184 0.0499999 -0.374607
+                            -0.927184 -0.0499999 -0.374607
+                            -1 -0.0499999 0
+                          }
+                          NormalBinding PER_VERTEX
+                          NormalArray Vec3Array 4
+                          {
+                            -1 0 0
+                            -0.927184 -0 -0.374607
+                            -0.927184 -0 -0.374607
+                            -1 0 0
+                          }
+                          ColorBinding PER_VERTEX
+                          ColorArray Vec4Array 4
+                          {
+                            0 0 1 0.5
+                            0 0 1 0.5
+                            0 0 1 0.5
+                            0 0 1 0.5
+                          }
+                        }
+                      }
+                      Geode {
+                        DataVariance DYNAMIC
+                        nodeMask 0xffffffff
+                        cullingActive TRUE
+                        num_drawables 1
+                        Geometry {
+                          DataVariance DYNAMIC
+                          StateSet {
+                            DataVariance STATIC
+                            rendering_hint DEFAULT_BIN
+                            renderBinMode INHERIT
+                            GL_BLEND ON
+                          }
+                          useDisplayList TRUE
+                          useVertexBufferObjects FALSE
+                          PrimitiveSets 1
+                          {
+                            DrawArrays POLYGON 0 4
+                          }
+                          VertexArray Vec3Array 4
+                          {
+                            -0.927184 0.0499999 -0.374607
+                            -0.707107 0.0499999 -0.707107
+                            -0.707107 -0.0499999 -0.707107
+                            -0.927184 -0.0499999 -0.374607
+                          }
+                          NormalBinding PER_VERTEX
+                          NormalArray Vec3Array 4
+                          {
+                            -0.927184 -0 -0.374607
+                            -0.707107 -0 -0.707107
+                            -0.707107 -0 -0.707107
+                            -0.927184 -0 -0.374607
+                          }
+                          ColorBinding PER_VERTEX
+                          ColorArray Vec4Array 4
+                          {
+                            0 0 1 0.5
+                            0 0 1 0.5
+                            0 0 1 0.5
+                            0 0 1 0.5
+                          }
+                        }
+                      }
+                      Geode {
+                        DataVariance DYNAMIC
+                        nodeMask 0xffffffff
+                        cullingActive TRUE
+                        num_drawables 1
+                        Geometry {
+                          DataVariance DYNAMIC
+                          StateSet {
+                            DataVariance STATIC
+                            rendering_hint DEFAULT_BIN
+                            renderBinMode INHERIT
+                            GL_BLEND ON
+                          }
+                          useDisplayList TRUE
+                          useVertexBufferObjects FALSE
+                          PrimitiveSets 1
+                          {
+                            DrawArrays POLYGON 0 4
+                          }
+                          VertexArray Vec3Array 4
+                          {
+                            -0.707107 0.0499999 -0.707107
+                            -0.390731 0.0499999 -0.920505
+                            -0.390731 -0.0499999 -0.920505
+                            -0.707107 -0.0499999 -0.707107
+                          }
+                          NormalBinding PER_VERTEX
+                          NormalArray Vec3Array 4
+                          {
+                            -0.707107 -0 -0.707107
+                            -0.390731 -0 -0.920505
+                            -0.390731 -0 -0.920505
+                            -0.707107 -0 -0.707107
+                          }
+                          ColorBinding PER_VERTEX
+                          ColorArray Vec4Array 4
+                          {
+                            0 0 1 0.5
+                            0 0 1 0.5
+                            0 0 1 0.5
+                            0 0 1 0.5
+                          }
+                        }
+                      }
+                      Geode {
+                        DataVariance DYNAMIC
+                        nodeMask 0xffffffff
+                        cullingActive TRUE
+                        num_drawables 1
+                        Geometry {
+                          DataVariance DYNAMIC
+                          StateSet {
+                            DataVariance STATIC
+                            rendering_hint DEFAULT_BIN
+                            renderBinMode INHERIT
+                            GL_BLEND ON
+                          }
+                          useDisplayList TRUE
+                          useVertexBufferObjects FALSE
+                          PrimitiveSets 1
+                          {
+                            DrawArrays POLYGON 0 4
+                          }
+                          VertexArray Vec3Array 4
+                          {
+                            -0.390731 0.0499999 -0.920505
+                            0 0.0499999 -1
+                            0 -0.0499999 -1
+                            -0.390731 -0.0499999 -0.920505
+                          }
+                          NormalBinding PER_VERTEX
+                          NormalArray Vec3Array 4
+                          {
+                            -0.390731 -0 -0.920505
+                            0 0 -1
+                            0 0 -1
+                            -0.390731 -0 -0.920505
+                          }
+                          ColorBinding PER_VERTEX
+                          ColorArray Vec4Array 4
+                          {
+                            0 0 1 0.5
+                            0 0 1 0.5
+                            0 0 1 0.5
+                            0 0 1 0.5
+                          }
+                        }
+                      }
+                      Geode {
+                        DataVariance DYNAMIC
+                        nodeMask 0xffffffff
+                        cullingActive TRUE
+                        num_drawables 1
+                        Geometry {
+                          DataVariance DYNAMIC
+                          StateSet {
+                            DataVariance STATIC
+                            rendering_hint DEFAULT_BIN
+                            renderBinMode INHERIT
+                            GL_BLEND ON
+                          }
+                          useDisplayList TRUE
+                          useVertexBufferObjects FALSE
+                          PrimitiveSets 1
+                          {
+                            DrawArrays POLYGON 0 4
+                          }
+                          VertexArray Vec3Array 4
+                          {
+                            0 0.0499999 -1
+                            0.374607 0.0499999 -0.927184
+                            0.374607 -0.0499999 -0.927184
+                            0 -0.0499999 -1
+                          }
+                          NormalBinding PER_VERTEX
+                          NormalArray Vec3Array 4
+                          {
+                            0 0 -1
+                            0.374607 0 -0.927184
+                            0.374607 0 -0.927184
+                            0 0 -1
+                          }
+                          ColorBinding PER_VERTEX
+                          ColorArray Vec4Array 4
+                          {
+                            0 0 1 0.5
+                            0 0 1 0.5
+                            0 0 1 0.5
+                            0 0 1 0.5
+                          }
+                        }
+                      }
+                      Geode {
+                        DataVariance DYNAMIC
+                        nodeMask 0xffffffff
+                        cullingActive TRUE
+                        num_drawables 1
+                        Geometry {
+                          DataVariance DYNAMIC
+                          StateSet {
+                            DataVariance STATIC
+                            rendering_hint DEFAULT_BIN
+                            renderBinMode INHERIT
+                            GL_BLEND ON
+                          }
+                          useDisplayList TRUE
+                          useVertexBufferObjects FALSE
+                          PrimitiveSets 1
+                          {
+                            DrawArrays POLYGON 0 4
+                          }
+                          VertexArray Vec3Array 4
+                          {
+                            0.374607 0.0499999 -0.927184
+                            0.707107 0.0499999 -0.707107
+                            0.707107 -0.0499999 -0.707107
+                            0.374607 -0.0499999 -0.927184
+                          }
+                          NormalBinding PER_VERTEX
+                          NormalArray Vec3Array 4
+                          {
+                            0.374607 0 -0.927184
+                            0.707107 0 -0.707107
+                            0.707107 0 -0.707107
+                            0.374607 0 -0.927184
+                          }
+                          ColorBinding PER_VERTEX
+                          ColorArray Vec4Array 4
+                          {
+                            0 0 1 0.5
+                            0 0 1 0.5
+                            0 0 1 0.5
+                            0 0 1 0.5
+                          }
+                        }
+                      }
+                      Geode {
+                        DataVariance DYNAMIC
+                        nodeMask 0xffffffff
+                        cullingActive TRUE
+                        num_drawables 1
+                        Geometry {
+                          DataVariance DYNAMIC
+                          StateSet {
+                            DataVariance STATIC
+                            rendering_hint DEFAULT_BIN
+                            renderBinMode INHERIT
+                            GL_BLEND ON
+                          }
+                          useDisplayList TRUE
+                          useVertexBufferObjects FALSE
+                          PrimitiveSets 1
+                          {
+                            DrawArrays POLYGON 0 4
+                          }
+                          VertexArray Vec3Array 4
+                          {
+                            0.707107 0.0499999 -0.707107
+                            0.920505 0.0499999 -0.390731
+                            0.920505 -0.0499999 -0.390731
+                            0.707107 -0.0499999 -0.707107
+                          }
+                          NormalBinding PER_VERTEX
+                          NormalArray Vec3Array 4
+                          {
+                            0.707107 0 -0.707107
+                            0.920505 0 -0.390731
+                            0.920505 0 -0.390731
+                            0.707107 0 -0.707107
+                          }
+                          ColorBinding PER_VERTEX
+                          ColorArray Vec4Array 4
+                          {
+                            0 0 1 0.5
+                            0 0 1 0.5
+                            0 0 1 0.5
+                            0 0 1 0.5
+                          }
+                        }
+                      }
+                      Geode {
+                        DataVariance DYNAMIC
+                        nodeMask 0xffffffff
+                        cullingActive TRUE
+                        num_drawables 1
+                        Geometry {
+                          DataVariance DYNAMIC
+                          StateSet {
+                            DataVariance STATIC
+                            rendering_hint DEFAULT_BIN
+                            renderBinMode INHERIT
+                            GL_BLEND ON
+                          }
+                          useDisplayList TRUE
+                          useVertexBufferObjects FALSE
+                          PrimitiveSets 1
+                          {
+                            DrawArrays POLYGON 0 4
+                          }
+                          VertexArray Vec3Array 4
+                          {
+                            0.920505 0.0499999 -0.390731
+                            1 0.0499999 0
+                            1 -0.0499999 0
+                            0.920505 -0.0499999 -0.390731
+                          }
+                          NormalBinding PER_VERTEX
+                          NormalArray Vec3Array 4
+                          {
+                            0.920505 0 -0.390731
+                            1 0 0
+                            1 0 0
+                            0.920505 0 -0.390731
+                          }
+                          ColorBinding PER_VERTEX
+                          ColorArray Vec4Array 4
+                          {
+                            0 0 1 0.5
+                            0 0 1 0.5
+                            0 0 1 0.5
+                            0 0 1 0.5
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

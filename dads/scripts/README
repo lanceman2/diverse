@@ -1,0 +1,3 @@
+Only the rmsem.sh script is necessary. The other 4 scripts 
+are an alternative to the dtk-masterServer and dtk-masterControl 
+commands which are available in the contribPrograms directory.

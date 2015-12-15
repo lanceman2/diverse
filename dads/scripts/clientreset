@@ -1,0 +1,16 @@
+#!/bin/bash
+
+killall -9 diversifly
+dListener-stop
+killall -9 dListener
+dtk-shutdownserver
+killall -9 dtk-server
+dtk-destroySharedMem -r 
+dtk-destroySharedMem -r 
+rmsem.sh
+dtk-server -d
+dCreateShm -c
+dListener -l
+
+echo "SUCCESS"
+

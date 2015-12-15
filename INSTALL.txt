@@ -1,0 +1,80 @@
+Installation instructions for all platforms
+
+
+Overview
+DIVERSE (Device Independent Virtual Environments - Reconfigurable, Scalable,
+Extensible) is a cross-platform API for use in building 3D virtual
+environments for the desktop, stereo walls, CAVE (TM), RAVE (TM), etc.
+
+
+Dependencies
+FLTK (optional) - used for building various GUI utilities
+OpenThreads (required by DGL) - an open source threading API
+Producer (required by DGL) - an open source windowing API
+OpenSceneGraph (optional) - an open source scenegraph API
+Coin3D (optional) - an open source VRML API based on OpenInventor
+VTK (optional) - an open source visualization API
+CMake (required) - an open source Makefile generator
+
+CMake
+There is a command-line (cmake) and a GUI (ccmake) version of cmake. To build
+in-source run cmake or ccmake from the top-level source directory. To build
+out-of-source, create a separate directory and run cmake followed by the path
+to the source tree.
+
+
+General
+in-source:
+
+	cmake -i
+	make
+	sudo make install
+
+out-of-source:
+
+	mkdir diverse-build
+	cd diverse-build
+	cmake -i ../diverse
+	make
+	sudo make install
+
+
+Environment Variables
+If you have installed FLTK, OpenThreads, Producer, OpenSceneGraph, or Coin in
+non-default locations you can set environment variables so that cmake can find
+the files it needs more easily.
+
+FLTK_DIR - the root FLTK installation directory.
+OPENTHREADS_INC_DIR - the directory where the OpenThreads includes directory is
+		located.
+OPENTHREADS_LIB_DIR - the directory where the OpenThreads libraries are
+		installed.
+PRODUCER_INC_DIR - the directory where the Producer includes directory is located.
+PRODUCER_LIB_DIR - the directory where the Producer libraries are installed.
+OSG_INST_LOCATION - the root OpenSceneGraph installation directory.
+COINDIR - the root Coin installation directory.
+
+
+Linux/IRIX/Unix
+DIVERSE should build without issue on Linux systems.
+
+Mac OS X
+DGL should be built and installed using X11. All DGL applications should be
+run under X11. If you have X11 installed but cmake is unable to find X11
+include or library files, verify that you also have the X11 API installed
+(part of the XCode binaries and is not installed by default).
+
+
+Windows
+When linking to libraries .lib files are used which are usually installed in
+lib directories. The .dll files are used at runtime and usually required to be
+in your PATH environment variables. You can set environment variables through
+the System control panel in the Advanced tab.
+
+When setting environment variables it is important to remember that the list
+separator is a semi-colon ';' due to path names using a drive letter followed
+by a colon ':'. After installation in Windows some people may find it useful
+to run the programs in Cygwin. If run from Cygwin (but not built in Cygwin),
+then the separator is still a semi-colon ';' and any DIVERSE environment
+variables should be set up using standard Windows path names.
+

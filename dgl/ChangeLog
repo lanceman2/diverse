@@ -1,0 +1,50 @@
+Tue May 15 18:00:00 EDT 2007  Patrick Shinpaugh  <pshinpaugh@users.sourceforge.net>
+	* === Release 2.4.5 ===
+	* Fixes for 64 bit support
+	* Many additions, bug fixes, modifications by Andrew Ray and John Kelso
+	* Ortho viewports by John Kelso
+
+
+Fri Jul 28 18:00:00 EDT 2006  Patrick Shinpaugh  <pshinpaugh@users.sourceforge.net>
+	* === Release 2.4.4 ===
+	* Minor bug fixes
+
+
+Fri Jul 28 18:00:00 EDT 2006  John Kelso  <kelso@nist.gov>
+	* Vast improvements to DGL and DOSG
+	* Added DSOs for DOSG and DGL
+	* Improved lighting for DOSG
+	* Added several programs for DOSG
+	* Many bug fixes - major and minor
+
+
+Fri Jul 28 18:00:00 EDT 2006  Andrew Ray  <dtkman@users.sourceforge.net>
+	* Vast improvements to DGL and DOSG
+	* Added DSOs for DOSG and DGL
+	* Added threading to DGL
+	* Many bug fixes - major and minor
+
+
+Fri Jul 28 18:00:00 EDT 2006  Dan Larimer  <dlarimer@users.sourceforge.net>
+	* Various bug fixes - especially for Mac OS X
+
+
+Wed Feb 22 4:30:10 EST 2006  Andrew Ray  <dtkman@users.sourceforge.net>
+	* === Release 2.4.4 ===
+	* Interocular distance fixed (Thank you Patrick and Dheva)
+	* Added passive stereo support (through DSO's)
+	* Added in support for viewports (With help from John Kelso)
+	* Fixed a keyboard bug
+	* Updated to work with VTK 5.0
+	* Tested with latest versions of DTK / OSG / Coin / VTK
+	* Fixed a rendering bug with OSG code
+
+Fri Dec  2 11:50:10 EST 2005  Patrick Shinpaugh  <pshinpaugh@users.sourceforge.net>
+	* === Release 2.4.3 ===
+	* Renamed vtCaveDisplay DSOs
+	* Added vtCaveMono DSOs
+
+Fri Nov 18 18:00:00 EST 2005  Patrick Shinpaugh  <pshinpaugh@users.sourceforge.net>
+	* === Release 2.4.2 ===
+	* Updates for build consistency across DIVERSE packages
+	* Some minor bug fixes

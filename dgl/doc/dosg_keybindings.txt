@@ -1,0 +1,19 @@
+dosgToggleObjectsKeyboardControl:
+
+  Each object uses a modifier key to specify what under node the toggle
+  object should be placed
+
+    'w' or 'W'		under the "world" node
+    'e' or 'E'		under the "ether" node
+    's' or 'S'		under the "scene" node
+    'n' or 'N'		under the "nav" node
+
+  The objects are:
+    'c' or 'C'		cube- four presses to cycle through frame and panel
+    'f' or 'F'		frame
+    'g' or 'G'		gnomon
+    'a' or 'A'		axis
+    't' or 'T'		text label
+
+  'Backspace' turns off all toggle objects
+

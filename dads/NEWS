@@ -1,0 +1,7 @@
+DADS - DIVERSE Adaptable Display System
+
+This is DADS release 1.3.0
+
+The build process has been converted to use GNU autotools (autoconf, automake, etc).
+Other than that... enjoy.
+

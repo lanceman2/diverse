@@ -1,0 +1,19 @@
+#!/bin/bash
+
+echo "Reset script for the dads console"
+echo "Make sure your program is not running when you run this script"
+killall -9 diversifly
+dtk-shutdownserver
+killall -9 dtk-server
+dtk-destroySharedMem -r 
+dtk-destroySharedMem -r 
+rmsem.sh
+dtk-server -d
+dCreateShm -c
+dtk-connectRemoteSharedMem head io.sv.vt.edu 
+dtk-connectRemoteSharedMem wand io.sv.vt.edu 
+dtk-connectRemoteSharedMem joystick io.sv.vt.edu 
+dtk-connectRemoteSharedMem buttons io.sv.vt.edu 
+
+echo "SUCCESS"
+

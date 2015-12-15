@@ -1,0 +1,15 @@
+                           README
+DADS is licensed under the LGPL and GPL. The libraries for dMessage and 
+dSockets are licensed under the LGPL. All other parts except the 
+documentationare licensed under the GPL. The documentation is not licensed
+but is copyrighted and can be freely distributed as is.
+
+See file INSTALL for installation instructions.
+
+See files COPYING.GPL and COPYING.LGPL for License information.
+
+
+------------------------------------------------------------------------
+The DIVERSE Adaptable Display System
+Copyright (C) 2004-2005 Andrew Ray, Patrick Shinpaugh, and Ron Kriz
+

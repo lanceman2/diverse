@@ -1,0 +1,16 @@
+This software is distributed under the latest revision of GPL version 2, and under the latest LGPL of version 2.  All of the code is copyrighted by Andrew A. Ray.  Others (John Kelso and Patrick Shinpaugh) have made contributions to the code also.  Original development support (both monetary and motivational) came from Dr. Ron Kriz at Virginia Tech.
+
+The base DGL library has been tested and works on Mac OSX, Linux, and IRIX
+Coin/VTK/Open SceneGraph support has only been tested on Mac OS X and Linux
+
+Cygwin support has been dropped due to lack of funding
+
+Known bugs:
+
+Screens don't work on Mac OS X, only regular Desktop Displays.
+
+Screenhandler code could be cleaned up in the future.
+
+Won't link properly if you are using beta NVIDIA Linux drivers for the NVIDIA 3000G.  You will need to back down your NVIDIA drivers to regular drivers install, then reinstall the 3000G drivers.
+
+CYGWIN is used for windows support and does not fully support DTK Shared Memory.  Because of this it is disabled in DGL for the time being.  This will be fixed in the future, which may be never because there is no funding for developing DGL at the time.

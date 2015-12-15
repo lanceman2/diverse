@@ -1,0 +1,21 @@
+Contributed Programs
+
+1. displayswitcher
+This package can be used to switch displays using an Extron Electronics 
+CrossPoint 84 Matrix Switcher. It consists of 2 programs:
+
+displayswitchd should be running on a computer which is connected to the 
+switch through an RS-232 serial port.
+
+displayswitcher is a GUI application which communicates with the 
+displayswitchd daemon over the network.
+
+dtkmasterserver
+This package is used to reset and configure the CAVE over multiple computers. 
+Please see the usage information for each of the following programs (use the 
+--help or -h option to view usage).
+
+dtk-masterServer is a daemon running on each computer which needs to be reset.
+
+dtk-masterControl is a program used to communicate with either local or 
+remote dtk-masterServers.

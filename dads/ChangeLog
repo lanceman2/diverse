@@ -1,0 +1,31 @@
+Wed May 30 18:00:00 EDT 2007  Patrick Shinpaugh  <pshinpaugh@users.sourceforge.net>
+	* === Release 1.3.4 ===
+	* Fixed bug where include file were not installed
+
+Tue May 15 18:00:00 EDT 2007  Patrick Shinpaugh  <pshinpaugh@users.sourceforge.net>
+	* === Release 1.3.3 ===
+	* Fixed bugs with nvswapbarrier - it finally works correctly
+	* Fixes for Mac OS X
+	* Fixed bug with gethostbyaddr as reported by Ali Elqursh (BibAlex)
+	* Other minor fixes
+
+Thu Feb  2 15:48:25 EST 2006  Patrick Shinpaugh  <pshinpaugh@users.sourceforge.net>
+	* === Release 1.3.2 ===
+	* Improved dSocket library to allow larger (>1024 bytes) send and receives
+	* Updated various programs and DSOs to use updated dSocket library
+	* Updated dListener to fix various issues
+
+Wed Dec  7 14:14:54 EST 2005  Patrick Shinpaugh  <pshinpaugh@users.sourceforge.net>
+	* === Release 1.3.1 ===
+	* Fixed issue with dtk-masterServer "Abort"ing if /etc/dtk-masterServer.conf
+		is formatted for DOS (i.e. lines end with \r\n and often appear with a
+		bolded "^M" at the end of lines)
+
+Fri Nov 18 18:00:00 EST 2005  Patrick Shinpaugh  <pshinpaugh@users.sourceforge.net>
+	* === Release 1.3.0 ===
+	* Updated build and install to use GNU Autotools
+	* Changed environment variables to use DADS_ prefix
+	* Added DADS_TIMEOUT to allow configurable navWrite timeout
+		if the default of 20 seconds is not sufficient for larger models.
+	* Changed and reduced number of environment variables for consistency, ease of use
+	* Updates for build consistency across DIVERSE packages

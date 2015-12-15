@@ -1,0 +1,39 @@
+caveKeyboardInput:
+
+  Left/Right            move head & wand left (-X)/right (+X)
+  Up/Down		move head & wand forward (+Y)/backwards (-Y)
+  Shift + Up/Down       move head & wand up (+Z)/down (-Z)
+  Alt + Left/Right	rotate head & wand left (+H)/right (-H)
+  Alt + Up/Down         rotate head up (+P)/down (-P)
+  '<' or ','            roll wand left (-R)
+  '>' or '.'            roll wand right (+R)
+  'r' or 'R'		reset head and wand
+  Keypad Home		reset wand
+  Control + Mouse	move wand left/right (X) front/back(Y)
+  Shift + Mouse		move wand left/right (X) up/down(Z)
+  Alt + Mouse		rotate wand left/right (H) up/down(P)
+  Space + Mouse		set joystick (X and Y)
+
+
+DGLKeyboardNavControl:
+
+  '+' or '='	        increase response
+  '-'			decrease response
+  '_'			reset response
+  '0'			reset location/scale
+  ')'			reset pitch and roll
+  '1'			set location/scale reset values to the current values
+  'p' or 'P'		switch to next navigation DSO
+
+simulatorKeyboardControl:
+
+  'h' or 'H'		toggle display of head/wand objects
+  'j' or 'J'		toggle jump view
+  '4'/'6' or Keypad Left/Right	rotate jump view left (+H)/right (-H)
+  '2'/'8' or Keypad Up/Down	rotate jump view up (+P)/down (-P)
+  Keypad -/+		move jump view in (-Y)/out (+Y)
+  '5' or Keypad Begin	reset jump view 
+
+note that you need to have NumLock turned off to key keypad keys to register
+properly
+

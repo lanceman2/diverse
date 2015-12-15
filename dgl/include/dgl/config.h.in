@@ -1,0 +1,174 @@
+/* include/dgl/config.h.in.  Generated from configure.ac by autoheader.  */
+
+/* defines the include flags for the coin library. */
+#cmakedefine DCOIN_INCLUDE "@DCOIN_INCLUDE@"
+
+/* defines the library flags for the coin library. */
+#cmakedefine DCOIN_LIBS "@DCOIN_LIBS@"
+
+/* defines the default display dso that DGL uses. */
+#cmakedefine DEFAULT_DISPLAY_DSO "@DEFAULT_DISPLAY_DSO@"
+
+/* defines the default DSO that dgl uses. */
+#cmakedefine DEFAULT_DSOS "@DEFAULT_DSOS@"
+
+/* What kind of operating system this DGL package was built on. */
+#cmakedefine DGL_ARCH "@DGL_ARCH@"
+
+/* We call it DGL_ARCH_arch in order to avoid name *
+ * space conflicts in the installed header files. */
+#define DGL_ARCH_@DGL_ARCH_UPPER@
+
+/* defines the default DSO directory that dgl uses. */
+#cmakedefine DGL_BASE_DSO_DIR "@DGL_BASE_DSO_DIR@"
+
+/* the compiler DGL was built with. */
+#cmakedefine DGL_COMPILER "@DGL_COMPILER@"
+
+/* when DGL was compiled */
+#cmakedefine DGL_COMPILE_DATE "@DGL_COMPILE_DATE@"
+
+/* hostname DGL was compiled on */
+#cmakedefine DGL_COMPILE_HOST "@DGL_COMPILE_HOST@"
+
+/* defines the include flags that dgl uses. */
+#cmakedefine DGL_CXX_FLAGS "@DGL_CXX_FLAGS@"
+
+/* defines the default data directory that dgl uses. */
+#cmakedefine DGL_DATA_DIR "@DGL_DATA_DIR@"
+
+/* defines the default directory dgl uses. */
+#cmakedefine DGL_DEFAULT_ROOT "@DGL_DEFAULT_ROOT@"
+
+/* defines the default directory dgl uses for DSOs. */
+#cmakedefine DGL_DSO_DIR "@DGL_DSO_DIR@"
+
+/* defines the environmental variable that DGL uses to identify DSOs. */
+#cmakedefine DGL_DSO_FILES_ENVVAR "@DGL_DSO_FILES_ENVVAR@"
+
+/* defines the environmental variable that DGL uses to find the path to DSOs.
+   */
+#cmakedefine DGL_DSO_PATH_ENVVAR "@DGL_DSO_PATH_ENVVAR@"
+
+/* defines the version of dtk that dgl uses for compatability. */
+#cmakedefine DGL_DTK_COMPAT_VERSION "@DGL_DTK_COMPAT_VERSION@"
+
+/* defines the version of dtk that dgl used during compilation. */
+#cmakedefine DGL_DTK_VERSION "@DGL_DTK_VERSION@"
+
+/* defines the include flags that dgl uses with opengl. */
+#cmakedefine DGL_GL_FLAGS "@DGL_GL_FLAGS@"
+
+/* The DGL home-page. */
+#cmakedefine DGL_HOMEPAGE "@DGL_HOMEPAGE@"
+
+/* The include path for the project. */
+#cmakedefine DGL_INCLUDE "@DGL_INCLUDE@"
+
+/* The libraries necessary to build dgl programs. */
+#cmakedefine DGL_LIBS "@DGL_LIBS@"
+
+/* defines the environmental variable that DGL uses to find models. */
+#cmakedefine DGL_MODEL_PATH_ENVVAR "@DGL_MODEL_PATH_ENVVAR@"
+
+/* additional library link flags needed to compile a program with DGL's
+   libdtk. */
+#cmakedefine DGL_OTHER_LIBS "@DGL_OTHER_LIBS@"
+
+/* The date on which this DGL release was generated. */
+#cmakedefine DGL_RELEASE_DATE "@DGL_RELEASE_DATE@"
+
+/* the top source directory when DGL was built. */
+#cmakedefine DGL_SOURCE_DIR "@DGL_SOURCE_PATH@"
+
+/* defines the tweak file directory that dgl uses. */
+#cmakedefine DGL_TWEAK_DIR "@DGL_TWEAK_DIR@"
+
+/* defines the environmental variable that DGL uses to identify tweak files.
+   */
+#cmakedefine DGL_TWEAK_FILES_ENVVAR "@DGL_TWEAK_FILES_ENVVAR@"
+
+/* defines the environmental variable that DGL uses to find tweak files. */
+#cmakedefine DGL_TWEAK_PATH_ENVVAR "@DGL_TWEAK_PATH_ENVVAR@"
+
+/* The DGL release version number. */
+#cmakedefine DGL_VERSION "@DGL_VERSION@"
+
+/* who compiled */
+#cmakedefine DGL_WHO_COMPILED "@DGL_WHO_COMPILED@"
+
+/* defines the include flags that dtk uses for compatability. */
+#cmakedefine DTK_INCLUDEFLAGS "@DTK_INCLUDEFLAGS@"
+
+/* Define to 1 if you have the <dlfcn.h> header file. */
+#cmakedefine HAVE_DLFCN_H
+
+/* Define to 1 if you have the <inttypes.h> header file. */
+#cmakedefine HAVE_INTTYPES_H
+
+/* Define to 1 if you have the <memory.h> header file. */
+#cmakedefine HAVE_MEMORY_H
+
+/* Define to 1 if you have the <stdint.h> header file. */
+#cmakedefine HAVE_STDINT_H
+
+/* Define to 1 if you have the <stdlib.h> header file. */
+#cmakedefine HAVE_STDLIB_H
+
+/* Define to 1 if you have the <strings.h> header file. */
+#cmakedefine HAVE_STRINGS_H
+
+/* Define to 1 if you have the <string.h> header file. */
+#cmakedefine HAVE_STRING_H
+
+/* Define to 1 if you have the <sys/stat.h> header file. */
+#cmakedefine HAVE_SYS_STAT_H
+
+/* Define to 1 if you have the <sys/types.h> header file. */
+#cmakedefine HAVE_SYS_TYPES_H
+
+/* Define to 1 if you have the <unistd.h> header file. */
+#cmakedefine HAVE_UNISTD_H
+
+/* defines the include flags for the vtk library. */
+#cmakedefine DOSG_INCLUDE "@DOSG_INCLUDE@"
+
+/* defines the library flags for the coin library. */
+#cmakedefine DOSG_LIBS "@DOSG_LIBS@"
+
+/* Name of package */
+#cmakedefine PACKAGE
+
+/* Define to the address where bug reports for this package should be sent. */
+#cmakedefine PACKAGE_BUGREPORT
+
+/* Define to the full name of this package. */
+#cmakedefine PACKAGE_NAME
+
+/* Define to the full name and version of this package. */
+#cmakedefine PACKAGE_STRING
+
+/* Define to the one symbol short name of this package. */
+#cmakedefine PACKAGE_TARNAME
+
+/* Define to the version of this package. */
+#cmakedefine PACKAGE_VERSION
+
+/* Define to 1 if you have the ANSI C header files. */
+#cmakedefine STDC_HEADERS
+
+/* Version number of package */
+#cmakedefine VERSION
+
+/* defines the include flags for the vtk library. */
+#cmakedefine DVTK_INCLUDE "@DVTK_INCLUDE@"
+
+/* defines the library flags for the coin library. */
+#cmakedefine DVTK_LIBS "@DVTK_LIBS@"
+
+/* Define to 1 if the X Window System is missing or not being used. */
+#cmakedefine X_DISPLAY_MISSING
+
+/* Define the path to osgPlugins */
+#cmakedefine OSG_PLUGINS_DIR "@OSG_PLUGINS_DIR@"
+

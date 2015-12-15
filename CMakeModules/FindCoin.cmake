@@ -1,0 +1,55 @@
+# Find Coin3D headers and libraries
+
+FIND_PATH( COIN_DIR include/SoDebug.h
+	$ENV{COIN_DIR}
+	$ENV{COINDIR}
+	/usr
+	/usr/local
+	/sw
+	/opt
+	/opt/local
+	/opt/csw
+	/usr/freeware
+)
+
+IF( COIN_DIR )
+	IF( EXISTS ${COIN_DIR}/bin/coin-config )
+		FIND_PROGRAM( COIN_CONFIG_BIN NAMES coin-config
+				PATHS
+				${COIN_DIR}
+				PATH_SUFFIXES bin )
+		EXECUTE_PROCESS( COMMAND ${COIN_CONFIG_BIN} --prefix
+				OUTPUT_VARIABLE COIN_PREFIX OUTPUT_STRIP_TRAILING_WHITESPACE )
+	ENDIF( EXISTS ${COIN_DIR}/bin/coin-config )
+
+	FIND_PATH( COIN_INCLUDE_DIR SoDebug.h
+			${COIN_DIR}/include
+			${COIN_PREFIX}/include
+	)
+
+	FIND_LIBRARY( COIN_LIBRARY NAMES Coin coin2 coin3
+			PATHS
+			${COIN_DIR}/lib
+			${COIN_DIR}/lib64
+			${COIN_PREFIX}/lib
+			${COIN_PREFIX}/lib64
+	)
+
+	FIND_LIBRARY( COIN_LIBRARY_DEBUG NAMES Coind coin2d coin3d
+			PATHS
+			${COIN_DIR}/lib
+			${COIN_DIR}/lib64
+			${COIN_PREFIX}/lib
+			${COIN_PREFIX}/lib64
+	)
+
+	IF( COIN_LIBRARY AND NOT COIN_LIBRARY_DEBUG )
+		SET( COIN_LIBRARY_DEBUG ${COIN_LIBRARY} CACHE FILEPATH "Debug version of Coin3D Library (use regular version if not available)" FORCE )
+	ENDIF( COIN_LIBRARY AND NOT COIN_LIBRARY_DEBUG )
+ENDIF( COIN_DIR )
+
+SET( COIN_FOUND "NO" )
+IF( COIN_INCLUDE_DIR AND COIN_LIBRARY )
+	SET( COIN_FOUND "YES" )
+ENDIF( COIN_INCLUDE_DIR AND COIN_LIBRARY )
+

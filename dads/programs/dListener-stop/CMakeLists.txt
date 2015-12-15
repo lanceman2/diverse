@@ -1,0 +1,9 @@
+# CMakeLists.txt to build programs/dListener-stop
+
+INCLUDE_DIRECTORIES (${DADS_SOURCE_DIR}/lib/dMessage)
+ADD_EXECUTABLE (dListener-stop dListener-stop.cpp)
+TARGET_LINK_LIBRARIES (dListener-stop dMessage)
+INSTALL (TARGETS dListener-stop RUNTIME DESTINATION bin PERMISSIONS OWNER_READ
+	OWNER_WRITE OWNER_EXECUTE GROUP_READ GROUP_EXECUTE WORLD_READ
+	WORLD_EXECUTE)
+

@@ -1,0 +1,54 @@
+#!/usr/bin/expect -f
+
+set password "rootpasswordhere"
+
+set timeout 1000000
+
+spawn ssh root@dads1
+expect "password:"
+send "$password\r"
+expect "Last login:"
+sleep 2
+#send "bash\r"
+send "export DISPLAY=localhost:0.0\r"
+sleep 1
+send "clientreset\r"
+expect "SUCCESS"
+send "exit\r"
+
+spawn ssh root@dads2
+expect "password:"
+send "$password\r"
+expect "Last login:"
+sleep 2
+#send "bash\r"
+send "export DISPLAY=localhost:0.0\r"
+sleep 1
+send "clientreset\r"
+expect "SUCCESS"
+send "exit\r"
+
+spawn ssh root@dads3
+expect "password:"
+send "$password\r"
+expect "Last login:"
+sleep 2
+#send "bash\r"
+send "export DISPLAY=localhost:0.0\r"
+sleep 1
+send "clientreset\r"
+expect "SUCCESS"
+send "exit\r"
+
+spawn ssh root@dads4
+expect "password:"
+send "$password\r"
+expect "Last login:"
+sleep 2
+#send "bash\r"
+send "export DISPLAY=localhost:0.0\r"
+sleep 1
+send "clientreset\r"
+expect "SUCCESS"
+send "exit\r"
+
