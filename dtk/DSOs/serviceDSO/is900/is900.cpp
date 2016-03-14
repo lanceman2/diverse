@@ -426,6 +426,11 @@ int IS900::serve(void)
               tmat.translate(state[j][0],state[j][1],state[j][2]);
               tmat.translate(&state[j][0],&state[j][1],&state[j][2]);
 
+              /*Mon Mar 14 18:19:38 EDT 2016
+               * at time of new projectors install
+               * calibration by lance*/
+              state[j][1] += 0.2f;
+
 	      tracker_shm[j]->write(state[j]);
 
 	      VRCO.writeHeadTracker((const float *) state[j]);
@@ -478,7 +483,13 @@ int IS900::serve(void)
 	      else joystick[0] /= 127.0f;
 	      if(joystick[1] > 0.0f) joystick[1] /= 128.0f;
 	      else joystick[1] /= 127.0f;
-	      
+
+              /*Mon Mar 14 18:19:38 EDT 2016
+               * at time of new projectors install
+               * calibration by lance*/
+              state[j][1] += 0.2f;
+
+
 	      if(buttons_shm->write(&buttons) ||
 		 joystick_shm->write(joystick) ||
 		 tracker_shm[j]->write(state[j]))
