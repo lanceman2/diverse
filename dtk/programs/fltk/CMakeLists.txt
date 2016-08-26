@@ -3,7 +3,7 @@
 ADD_SUBDIRECTORY (buttons)
 ADD_SUBDIRECTORY (caveDeviceSimulator)
 ADD_SUBDIRECTORY (floatOutputGUIs)
-ADD_SUBDIRECTORY (scope)
+#ADD_SUBDIRECTORY (scope)
 ADD_SUBDIRECTORY (timeControl)
 ADD_SUBDIRECTORY (gnomonDisplay)
 
