@@ -5,7 +5,7 @@ ADD_SUBDIRECTORY (caveDeviceSimulator)
 ADD_SUBDIRECTORY (floatOutputGUIs)
 #ADD_SUBDIRECTORY (scope)
 ADD_SUBDIRECTORY (timeControl)
-ADD_SUBDIRECTORY (gnomonDisplay)
+#ADD_SUBDIRECTORY (gnomonDisplay)
 
 IF (NOT WIN32)
 	ADD_SUBDIRECTORY (demoRunner)
