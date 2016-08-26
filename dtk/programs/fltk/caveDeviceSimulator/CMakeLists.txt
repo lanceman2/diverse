@@ -6,12 +6,12 @@ ENDIF( WIN32 )
 
 INCLUDE_DIRECTORIES( ${DTK_SOURCE_DIR}/include ${DTK_FLTK_INC_DIRS} )
 LINK_DIRECTORIES( ${DTK_FLTK_LINK_DIRS} )
-ADD_EXECUTABLE( dtk-caveDeviceSimulator MACOSX_BUNDLE
+ADD_EXECUTABLE( dtk-caveDeviceSimulator
 		dtk-caveDeviceSimulator.cpp helpButton.cpp mainWindow.cpp
 		trackerWidget.cpp )
 TARGET_LINK_LIBRARIES( dtk-caveDeviceSimulator dtk ${DTK_FLTK_LIBS} )
-SET_TARGET_PROPERTIES( dtk-caveDeviceSimulator PROPERTIES
-		LINK_FLAGS "${DTK_FLTK_LINK_FLAGS} ${WIN32_EXTRA_LIBS}" )
+#SET_TARGET_PROPERTIES( dtk-caveDeviceSimulator PROPERTIES
+#		LINK_FLAGS "${DTK_FLTK_LINK_FLAGS} ${WIN32_EXTRA_LIBS}" )
 
 IF( ${DTK_ARCH_UPPER} MATCHES "DARWIN" )
 	SET( CUR_TARGET dtk-caveDeviceSimulator )
