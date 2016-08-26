@@ -7,7 +7,7 @@ ENDIF( WIN32 )
 INCLUDE_DIRECTORIES( ${DTK_SOURCE_DIR}/include ${DTK_FLTK_INC_DIRS} )
 LINK_DIRECTORIES( ${DTK_FLTK_LINK_DIRS} )
 LINK_LIBRARIES(${DTK_FLTK_LIBS})
-
+LINK_LIBRARIES( dtk ${DTK_FLTK_LIBS} )
 ADD_EXECUTABLE( dtk-doubleScope canvas.cpp channel.cpp
 		channelWidget.cpp checkRates.cpp colorButton.cpp controls.cpp
 		dtk-floatScope.cpp mainWin.cpp parseArgs.cpp plot.cpp plotWidget.cpp
