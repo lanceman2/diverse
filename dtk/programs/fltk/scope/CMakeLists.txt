@@ -11,9 +11,7 @@ ADD_EXECUTABLE( dtk-doubleScope MACOSX_BUNDLE canvas.cpp channel.cpp
 		channelWidget.cpp checkRates.cpp colorButton.cpp controls.cpp
 		dtk-floatScope.cpp mainWin.cpp parseArgs.cpp plot.cpp plotWidget.cpp
 		usage.cpp )
-TARGET_LINK_LIBRARIES( dtk-doubleScope dtk ${DTK_FLTK_LIBS} )
 SET_TARGET_PROPERTIES( dtk-doubleScope PROPERTIES
-		LINK_FLAGS "${DTK_FLTK_LINK_FLAGS}"
 		COMPILE_FLAGS -DdoubleScope )
 IF( ${DTK_ARCH_UPPER} MATCHES "DARWIN" )
 	SET( CUR_TARGET dtk-doubleScope )
@@ -27,9 +25,6 @@ ENDIF( ${DTK_ARCH_UPPER} MATCHES "DARWIN" )
 ADD_EXECUTABLE( dtk-floatScope MACOSX_BUNDLE canvas.cpp channel.cpp channelWidget.cpp
 	checkRates.cpp colorButton.cpp controls.cpp dtk-floatScope.cpp mainWin.cpp
 	parseArgs.cpp plot.cpp plotWidget.cpp usage.cpp )
-TARGET_LINK_LIBRARIES( dtk-floatScope dtk ${DTK_FLTK_LIBS} )
-SET_TARGET_PROPERTIES( dtk-doubleScope PROPERTIES
-		LINK_FLAGS "${DTK_FLTK_LINK_FLAGS}" )
 IF( ${DTK_ARCH_UPPER} MATCHES "DARWIN" )
 	SET( CUR_TARGET dtk-floatScope )
 	CONFIGURE_FILE( ${DTK_SOURCE_DIR}/programs/fltk/prog2app.in ${CMAKE_CURRENT_BINARY_DIR}/prog2app${CUR_TARGET} @ONLY )
@@ -39,8 +34,6 @@ IF( ${DTK_ARCH_UPPER} MATCHES "DARWIN" )
 		WORLD_EXECUTE )
 ENDIF( ${DTK_ARCH_UPPER} MATCHES "DARWIN" )
 
-SET_TARGET_PROPERTIES( dtk-doubleScope dtk-floatScope PROPERTIES COMPILE_FLAGS
-	"${DTK_FLTK_CXXFLAGS}" LINK_FLAGS "${WIN32_EXTRA_LIBS}" )
 INSTALL( TARGETS dtk-doubleScope dtk-floatScope RUNTIME DESTINATION bin
 	PERMISSIONS OWNER_READ OWNER_WRITE OWNER_EXECUTE GROUP_READ GROUP_EXECUTE
 	WORLD_READ WORLD_EXECUTE )

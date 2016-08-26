@@ -4,9 +4,6 @@ INCLUDE_DIRECTORIES( ${DTK_SOURCE_DIR}/include ${DTK_FLTK_INC_DIRS} )
 LINK_DIRECTORIES( ${DTK_FLTK_LINK_DIRS} )
 ADD_EXECUTABLE( dtk-launcher MACOSX_BUNDLE dtk-launcher.cpp getcwd.cpp killButtons.cpp
 	launchButtons.cpp mainWindow.cpp )
-TARGET_LINK_LIBRARIES( dtk-launcher dtk ${DTK_FLTK_LIBS} )
-SET_TARGET_PROPERTIES( dtk-launcher PROPERTIES
-		LINK_FLAGS "${DTK_FLTK_LINK_FLAGS}" )
 IF( ${DTK_ARCH_UPPER} MATCHES "DARWIN" )
 	SET( CUR_TARGET dtk-launcher )
 	CONFIGURE_FILE( ${DTK_SOURCE_DIR}/programs/fltk/prog2app.in ${CMAKE_CURRENT_BINARY_DIR}/prog2app @ONLY )

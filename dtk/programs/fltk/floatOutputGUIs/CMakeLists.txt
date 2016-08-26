@@ -7,12 +7,12 @@ ENDIF( WIN32 )
 INCLUDE_DIRECTORIES( ${DTK_SOURCE_DIR}/include ${DTK_FLTK_INC_DIRS} )
 LINK_DIRECTORIES( ${DTK_FLTK_LINK_DIRS} )
 
-ADD_EXECUTABLE( dtk-doubleAdjusters MACOSX_BUNDLE Dtk-valuators.cpp
+ADD_EXECUTABLE( dtk-doubleAdjusters Dtk-valuators.cpp
 		valuators.cpp )
 TARGET_LINK_LIBRARIES( dtk-doubleAdjusters dtk ${DTK_FLTK_LIBS} )
 SET_TARGET_PROPERTIES( dtk-doubleAdjusters PROPERTIES
 		COMPILE_FLAGS "-DdoubleAdjusters"
-		LINK_FLAGS "${DTK_FLTK_LINK_FLAGS}" )
+		)
 IF( ${DTK_ARCH_UPPER} MATCHES "DARWIN" )
 	SET( CUR_TARGET dtk-doubleAdjusters )
 	CONFIGURE_FILE( ${DTK_SOURCE_DIR}/programs/fltk/prog2app.in
@@ -25,7 +25,7 @@ IF( ${DTK_ARCH_UPPER} MATCHES "DARWIN" )
 			GROUP_EXECUTE WORLD_READ WORLD_EXECUTE )
 ENDIF( ${DTK_ARCH_UPPER} MATCHES "DARWIN" )
 
-ADD_EXECUTABLE( dtk-doubleValueInputs MACOSX_BUNDLE Dtk-valuators.cpp valuators.cpp )
+ADD_EXECUTABLE( dtk-doubleValueInputs Dtk-valuators.cpp valuators.cpp )
 TARGET_LINK_LIBRARIES( dtk-doubleValueInputs dtk ${DTK_FLTK_LIBS} )
 SET_TARGET_PROPERTIES( dtk-doubleValueInputs PROPERTIES
 		COMPILE_FLAGS "-DdoubleValueInputs" )
@@ -41,11 +41,11 @@ IF( ${DTK_ARCH_UPPER} MATCHES "DARWIN" )
 			GROUP_EXECUTE WORLD_READ WORLD_EXECUTE )
 ENDIF( ${DTK_ARCH_UPPER} MATCHES "DARWIN" )
 
-ADD_EXECUTABLE( dtk-doubleCounters MACOSX_BUNDLE Dtk-valuators.cpp valuators.cpp )
+ADD_EXECUTABLE( dtk-doubleCounters Dtk-valuators.cpp valuators.cpp )
 TARGET_LINK_LIBRARIES( dtk-doubleCounters dtk ${DTK_FLTK_LIBS} )
 SET_TARGET_PROPERTIES( dtk-doubleCounters PROPERTIES
 		COMPILE_FLAGS "-DdoubleCounters"
-		LINK_FLAGS "${DTK_FLTK_LINK_FLAGS}" )
+		 )
 IF( ${DTK_ARCH_UPPER} MATCHES "DARWIN" )
 	SET( CUR_TARGET dtk-doubleCounters )
 	CONFIGURE_FILE( ${DTK_SOURCE_DIR}/programs/fltk/prog2app.in
@@ -58,11 +58,11 @@ IF( ${DTK_ARCH_UPPER} MATCHES "DARWIN" )
 			GROUP_EXECUTE WORLD_READ WORLD_EXECUTE )
 ENDIF( ${DTK_ARCH_UPPER} MATCHES "DARWIN" )
 
-ADD_EXECUTABLE( dtk-doubleSliders MACOSX_BUNDLE Dtk-valuators.cpp valuators.cpp )
+ADD_EXECUTABLE( dtk-doubleSliders Dtk-valuators.cpp valuators.cpp )
 TARGET_LINK_LIBRARIES( dtk-doubleSliders dtk ${DTK_FLTK_LIBS} )
 SET_TARGET_PROPERTIES( dtk-doubleSliders PROPERTIES
 		COMPILE_FLAGS "-DdoubleSliders"
-		LINK_FLAGS "${DTK_FLTK_LINK_FLAGS}" )
+		 )
 IF( ${DTK_ARCH_UPPER} MATCHES "DARWIN" )
 	SET( CUR_TARGET dtk-doubleSliders )
 	CONFIGURE_FILE( ${DTK_SOURCE_DIR}/programs/fltk/prog2app.in
@@ -75,11 +75,11 @@ IF( ${DTK_ARCH_UPPER} MATCHES "DARWIN" )
 			GROUP_EXECUTE WORLD_READ WORLD_EXECUTE )
 ENDIF( ${DTK_ARCH_UPPER} MATCHES "DARWIN" )
 
-ADD_EXECUTABLE( dtk-doubleRollers MACOSX_BUNDLE Dtk-valuators.cpp valuators.cpp )
+ADD_EXECUTABLE( dtk-doubleRollers Dtk-valuators.cpp valuators.cpp )
 TARGET_LINK_LIBRARIES( dtk-doubleRollers dtk ${DTK_FLTK_LIBS} )
 SET_TARGET_PROPERTIES( dtk-doubleRollers PROPERTIES
 		COMPILE_FLAGS "-DdoubleRollers"
-		LINK_FLAGS "${DTK_FLTK_LINK_FLAGS}" )
+		 )
 IF( ${DTK_ARCH_UPPER} MATCHES "DARWIN" )
 	SET( CUR_TARGET dtk-doubleRollers )
 	CONFIGURE_FILE( ${DTK_SOURCE_DIR}/programs/fltk/prog2app.in
@@ -92,11 +92,11 @@ IF( ${DTK_ARCH_UPPER} MATCHES "DARWIN" )
 			GROUP_EXECUTE WORLD_READ WORLD_EXECUTE )
 ENDIF( ${DTK_ARCH_UPPER} MATCHES "DARWIN" )
 
-ADD_EXECUTABLE( dtk-floatAdjusters MACOSX_BUNDLE Dtk-valuators.cpp valuators.cpp )
+ADD_EXECUTABLE( dtk-floatAdjusters Dtk-valuators.cpp valuators.cpp )
 TARGET_LINK_LIBRARIES( dtk-floatAdjusters dtk ${DTK_FLTK_LIBS} )
 SET_TARGET_PROPERTIES( dtk-floatAdjusters PROPERTIES
 		COMPILE_FLAGS "-DfloatAdjusters"
-		LINK_FLAGS "${DTK_FLTK_LINK_FLAGS}" )
+		 )
 IF( ${DTK_ARCH_UPPER} MATCHES "DARWIN" )
 	SET( CUR_TARGET dtk-floatAdjusters )
 	CONFIGURE_FILE( ${DTK_SOURCE_DIR}/programs/fltk/prog2app.in
@@ -109,7 +109,7 @@ IF( ${DTK_ARCH_UPPER} MATCHES "DARWIN" )
 			GROUP_EXECUTE WORLD_READ WORLD_EXECUTE )
 ENDIF( ${DTK_ARCH_UPPER} MATCHES "DARWIN" )
 
-ADD_EXECUTABLE( dtk-floatValueInputs MACOSX_BUNDLE Dtk-valuators.cpp valuators.cpp )
+ADD_EXECUTABLE( dtk-floatValueInputs Dtk-valuators.cpp valuators.cpp )
 TARGET_LINK_LIBRARIES( dtk-floatValueInputs dtk ${DTK_FLTK_LIBS} )
 SET_TARGET_PROPERTIES( dtk-floatValueInputs PROPERTIES
 		COMPILE_FLAGS "-DfloatValueInputs" )
@@ -125,11 +125,11 @@ IF( ${DTK_ARCH_UPPER} MATCHES "DARWIN" )
 			GROUP_EXECUTE WORLD_READ WORLD_EXECUTE )
 ENDIF( ${DTK_ARCH_UPPER} MATCHES "DARWIN" )
 
-ADD_EXECUTABLE( dtk-floatCounters MACOSX_BUNDLE Dtk-valuators.cpp valuators.cpp )
+ADD_EXECUTABLE( dtk-floatCounters Dtk-valuators.cpp valuators.cpp )
 TARGET_LINK_LIBRARIES( dtk-floatCounters dtk ${DTK_FLTK_LIBS} )
 SET_TARGET_PROPERTIES( dtk-floatCounters PROPERTIES
 		COMPILE_FLAGS "-DfloatCounters"
-		LINK_FLAGS "${DTK_FLTK_LINK_FLAGS}" )
+		 )
 IF( ${DTK_ARCH_UPPER} MATCHES "DARWIN" )
 	SET( CUR_TARGET dtk-floatCounters )
 	CONFIGURE_FILE( ${DTK_SOURCE_DIR}/programs/fltk/prog2app.in
@@ -142,11 +142,11 @@ IF( ${DTK_ARCH_UPPER} MATCHES "DARWIN" )
 			GROUP_EXECUTE WORLD_READ WORLD_EXECUTE )
 ENDIF( ${DTK_ARCH_UPPER} MATCHES "DARWIN" )
 
-ADD_EXECUTABLE( dtk-floatSliders MACOSX_BUNDLE Dtk-valuators.cpp valuators.cpp )
+ADD_EXECUTABLE( dtk-floatSliders Dtk-valuators.cpp valuators.cpp )
 TARGET_LINK_LIBRARIES( dtk-floatSliders dtk ${DTK_FLTK_LIBS} )
 SET_TARGET_PROPERTIES( dtk-floatSliders PROPERTIES
 		COMPILE_FLAGS "-DfloatSliders"
-		LINK_FLAGS "${DTK_FLTK_LINK_FLAGS}" )
+		 )
 IF( ${DTK_ARCH_UPPER} MATCHES "DARWIN" )
 	SET( CUR_TARGET dtk-floatSliders )
 	CONFIGURE_FILE( ${DTK_SOURCE_DIR}/programs/fltk/prog2app.in
@@ -159,11 +159,11 @@ IF( ${DTK_ARCH_UPPER} MATCHES "DARWIN" )
 			GROUP_EXECUTE WORLD_READ WORLD_EXECUTE )
 ENDIF( ${DTK_ARCH_UPPER} MATCHES "DARWIN" )
 
-ADD_EXECUTABLE( dtk-floatRollers MACOSX_BUNDLE Dtk-valuators.cpp valuators.cpp )
+ADD_EXECUTABLE( dtk-floatRollers Dtk-valuators.cpp valuators.cpp )
 TARGET_LINK_LIBRARIES( dtk-floatRollers dtk ${DTK_FLTK_LIBS} )
 SET_TARGET_PROPERTIES( dtk-floatRollers PROPERTIES
 		COMPILE_FLAGS "-DfloatRollers"
-		LINK_FLAGS "${DTK_FLTK_LINK_FLAGS}" )
+		 )
 IF( ${DTK_ARCH_UPPER} MATCHES "DARWIN" )
 	SET( CUR_TARGET dtk-floatRollers )
 	CONFIGURE_FILE( ${DTK_SOURCE_DIR}/programs/fltk/prog2app.in
@@ -176,12 +176,12 @@ IF( ${DTK_ARCH_UPPER} MATCHES "DARWIN" )
 			GROUP_EXECUTE WORLD_READ WORLD_EXECUTE )
 ENDIF( ${DTK_ARCH_UPPER} MATCHES "DARWIN" )
 
-ADD_EXECUTABLE( dtk-intAdjusters MACOSX_BUNDLE Dtk-valuators.cpp
+ADD_EXECUTABLE( dtk-intAdjusters Dtk-valuators.cpp
 		valuators.cpp )
 TARGET_LINK_LIBRARIES( dtk-intAdjusters dtk ${DTK_FLTK_LIBS} )
 SET_TARGET_PROPERTIES( dtk-intAdjusters PROPERTIES
 		COMPILE_FLAGS "-DintAdjusters"
-		LINK_FLAGS "${DTK_FLTK_LINK_FLAGS}" )
+		 )
 IF( ${DTK_ARCH_UPPER} MATCHES "DARWIN" )
 	SET( CUR_TARGET dtk-intAdjusters )
 	CONFIGURE_FILE( ${DTK_SOURCE_DIR}/programs/fltk/prog2app.in
@@ -194,7 +194,7 @@ IF( ${DTK_ARCH_UPPER} MATCHES "DARWIN" )
 			GROUP_EXECUTE WORLD_READ WORLD_EXECUTE )
 ENDIF( ${DTK_ARCH_UPPER} MATCHES "DARWIN" )
 
-ADD_EXECUTABLE( dtk-intValueInputs MACOSX_BUNDLE Dtk-valuators.cpp valuators.cpp )
+ADD_EXECUTABLE( dtk-intValueInputs Dtk-valuators.cpp valuators.cpp )
 TARGET_LINK_LIBRARIES( dtk-intValueInputs dtk ${DTK_FLTK_LIBS} )
 SET_TARGET_PROPERTIES( dtk-intValueInputs PROPERTIES
 		COMPILE_FLAGS "-DintValueInputs" )
@@ -210,11 +210,11 @@ IF( ${DTK_ARCH_UPPER} MATCHES "DARWIN" )
 			GROUP_EXECUTE WORLD_READ WORLD_EXECUTE )
 ENDIF( ${DTK_ARCH_UPPER} MATCHES "DARWIN" )
 
-ADD_EXECUTABLE( dtk-intCounters MACOSX_BUNDLE Dtk-valuators.cpp valuators.cpp )
+ADD_EXECUTABLE( dtk-intCounters Dtk-valuators.cpp valuators.cpp )
 TARGET_LINK_LIBRARIES( dtk-intCounters dtk ${DTK_FLTK_LIBS} )
 SET_TARGET_PROPERTIES( dtk-intCounters PROPERTIES
 		COMPILE_FLAGS "-DintCounters"
-		LINK_FLAGS "${DTK_FLTK_LINK_FLAGS}" )
+		 )
 IF( ${DTK_ARCH_UPPER} MATCHES "DARWIN" )
 	SET( CUR_TARGET dtk-intCounters )
 	CONFIGURE_FILE( ${DTK_SOURCE_DIR}/programs/fltk/prog2app.in
@@ -227,11 +227,11 @@ IF( ${DTK_ARCH_UPPER} MATCHES "DARWIN" )
 			GROUP_EXECUTE WORLD_READ WORLD_EXECUTE )
 ENDIF( ${DTK_ARCH_UPPER} MATCHES "DARWIN" )
 
-ADD_EXECUTABLE( dtk-intSliders MACOSX_BUNDLE Dtk-valuators.cpp valuators.cpp )
+ADD_EXECUTABLE( dtk-intSliders Dtk-valuators.cpp valuators.cpp )
 TARGET_LINK_LIBRARIES( dtk-intSliders dtk ${DTK_FLTK_LIBS} )
 SET_TARGET_PROPERTIES( dtk-intSliders PROPERTIES
 		COMPILE_FLAGS "-DintSliders"
-		LINK_FLAGS "${DTK_FLTK_LINK_FLAGS}" )
+		 )
 IF( ${DTK_ARCH_UPPER} MATCHES "DARWIN" )
 	SET( CUR_TARGET dtk-intSliders )
 	CONFIGURE_FILE( ${DTK_SOURCE_DIR}/programs/fltk/prog2app.in
@@ -244,11 +244,11 @@ IF( ${DTK_ARCH_UPPER} MATCHES "DARWIN" )
 			GROUP_EXECUTE WORLD_READ WORLD_EXECUTE )
 ENDIF( ${DTK_ARCH_UPPER} MATCHES "DARWIN" )
 
-ADD_EXECUTABLE( dtk-intRollers MACOSX_BUNDLE Dtk-valuators.cpp valuators.cpp )
+ADD_EXECUTABLE( dtk-intRollers Dtk-valuators.cpp valuators.cpp )
 TARGET_LINK_LIBRARIES( dtk-intRollers dtk ${DTK_FLTK_LIBS} )
 SET_TARGET_PROPERTIES( dtk-intRollers PROPERTIES
 		COMPILE_FLAGS "-DintRollers"
-		LINK_FLAGS "${DTK_FLTK_LINK_FLAGS}" )
+		 )
 IF( ${DTK_ARCH_UPPER} MATCHES "DARWIN" )
 	SET( CUR_TARGET dtk-intRollers )
 	CONFIGURE_FILE( ${DTK_SOURCE_DIR}/programs/fltk/prog2app.in
@@ -261,13 +261,6 @@ IF( ${DTK_ARCH_UPPER} MATCHES "DARWIN" )
 			GROUP_EXECUTE WORLD_READ WORLD_EXECUTE )
 ENDIF( ${DTK_ARCH_UPPER} MATCHES "DARWIN" )
 
-SET_TARGET_PROPERTIES( dtk-doubleAdjusters dtk-doubleValueInputs
-		dtk-doubleCounters dtk-doubleSliders dtk-doubleRollers
-		dtk-floatAdjusters dtk-floatValueInputs dtk-floatCounters
-		dtk-floatSliders dtk-floatRollers
-		dtk-intAdjusters dtk-intValueInputs dtk-intCounters
-		dtk-intSliders dtk-intRollers
-		PROPERTIES LINK_FLAGS "${WIN32_EXTRA_LIBS}" )
 INSTALL( TARGETS dtk-doubleAdjusters dtk-doubleValueInputs
 		dtk-doubleCounters dtk-doubleSliders dtk-doubleRollers
 		dtk-floatAdjusters dtk-floatValueInputs dtk-floatCounters

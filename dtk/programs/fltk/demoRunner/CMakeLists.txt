@@ -2,11 +2,11 @@
 
 INCLUDE_DIRECTORIES( ${DTK_SOURCE_DIR}/include ${DTK_FLTK_INC_DIRS} )
 LINK_DIRECTORIES( ${DTK_FLTK_LINK_DIRS} )
-ADD_EXECUTABLE( dtk-demoRunner MACOSX_BUNDLE dtk-demoRunner.cpp
+ADD_EXECUTABLE( dtk-demoRunner dtk-demoRunner.cpp
 		launchButtons.cpp mainWindow.cpp getcwd.cpp )
 TARGET_LINK_LIBRARIES( dtk-demoRunner dtk ${DTK_FLTK_LIBS} )
-SET_TARGET_PROPERTIES( dtk-demoRunner PROPERTIES
-		LINK_FLAGS "${DTK_FLTK_LINK_FLAGS}" )
+#SET_TARGET_PROPERTIES( dtk-demoRunner PROPERTIES
+#		LINK_FLAGS "${DTK_FLTK_LINK_FLAGS}" )
 
 IF( ${DTK_ARCH_UPPER} MATCHES "DARWIN" )
 	SET( CUR_TARGET dtk-demoRunner )

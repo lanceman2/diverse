@@ -8,9 +8,6 @@ INCLUDE_DIRECTORIES( ${DTK_SOURCE_DIR}/include ${DTK_FLTK_GL_INC_DIRS} )
 LINK_DIRECTORIES( ${DTK_FLTK_GL_LINK_DIRS} )
 ADD_EXECUTABLE( dtk-gnomonDisplay MACOSX_BUNDLE about.cpp
 		dtk-gnomonDisplay.cpp gnomonWindow.cpp mainWindow.cpp )
-TARGET_LINK_LIBRARIES( dtk-gnomonDisplay dtk ${DTK_FLTK_GL_LIBS} )
-SET_TARGET_PROPERTIES( dtk-gnomonDisplay PROPERTIES
-		LINK_FLAGS "${DTK_FLTK_GL_LINK_FLAGS} ${WIN32_EXTRA_LIBS}" )
 
 IF( ${DTK_ARCH_UPPER} MATCHES "DARWIN" )
 	SET( CUR_TARGET dtk-gnomonDisplay )

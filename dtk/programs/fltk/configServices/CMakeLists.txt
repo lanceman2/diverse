@@ -3,11 +3,10 @@
 INCLUDE_DIRECTORIES( ${DTK_SOURCE_DIR}/include ${DTK_FLTK_INC_DIRS}
 		${DTK_FLTK_INC_DIRS} )
 LINK_DIRECTORIES( ${DTK_FLTK_LINK_DIRS} )
-ADD_EXECUTABLE( dtk-configServices MACOSX_BUNDLE config_widget.cpp
+ADD_EXECUTABLE( dtk-configServices config_widget.cpp
 		dtk-configServices.cpp mainWindow.cpp )
 TARGET_LINK_LIBRARIES( dtk-configServices dtk ${DTK_FLTK_LIBS} )
-SET_TARGET_PROPERTIES( dtk-configServices PROPERTIES
-		LINK_FLAGS "${DTK_FLTK_LINK_FLAGS}" )
+#SET_TARGET_PROPERTIES( dtk-configServices PROPERTIES LINK_FLAGS "${DTK_FLTK_LINK_FLAGS}" )
 IF( ${DTK_ARCH_UPPER} MATCHES "DARWIN" )
 	SET( CUR_TARGET dtk-configServices )
 	CONFIGURE_FILE( ${DTK_SOURCE_DIR}/programs/fltk/prog2app.in
