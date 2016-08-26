@@ -9,7 +9,7 @@ ADD_SUBDIRECTORY (timeControl)
 
 IF (NOT WIN32)
 	ADD_SUBDIRECTORY (demoRunner)
-	ADD_SUBDIRECTORY (launcher)
+        #ADD_SUBDIRECTORY (launcher)
 	ADD_SUBDIRECTORY (configServices)
 ENDIF (NOT WIN32)
 
