@@ -6,14 +6,13 @@ ENDIF( WIN32 )
 
 INCLUDE_DIRECTORIES( ${DTK_SOURCE_DIR}/include ${DTK_FLTK_INC_DIRS} )
 LINK_DIRECTORIES( ${DTK_FLTK_LINK_DIRS} )
-TARGET_LINK_LIBRARIES( dtk-buttons dtk ${DTK_FLTK_LIBS} )
+LINK_LIBRARIES(${DTK_FLTK_LIBS})
 
-ADD_EXECUTABLE( dtk-doubleScope MACOSX_BUNDLE canvas.cpp channel.cpp
+ADD_EXECUTABLE( dtk-doubleScope canvas.cpp channel.cpp
 		channelWidget.cpp checkRates.cpp colorButton.cpp controls.cpp
 		dtk-floatScope.cpp mainWin.cpp parseArgs.cpp plot.cpp plotWidget.cpp
 		usage.cpp )
-SET_TARGET_PROPERTIES( dtk-doubleScope PROPERTIES
-		COMPILE_FLAGS -DdoubleScope )
+SET_TARGET_PROPERTIES( dtk-doubleScope PROPERTIES COMPILE_FLAGS -DdoubleScope )
 IF( ${DTK_ARCH_UPPER} MATCHES "DARWIN" )
 	SET( CUR_TARGET dtk-doubleScope )
 	CONFIGURE_FILE( ${DTK_SOURCE_DIR}/programs/fltk/prog2app.in ${CMAKE_CURRENT_BINARY_DIR}/prog2app${CUR_TARGET} @ONLY )
