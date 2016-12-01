@@ -112,8 +112,6 @@ private:
 
   void clean_up(void);
 
-  dtkVRCOSharedMem VRCO;
-
   //dtkMatrix rotHead;
   dtkMatrix transHead;
 };
@@ -198,8 +196,6 @@ IS900::IS900(void)
       state[i][4] = 0.0f;
       state[i][5] = 0.0f;
     }
-
-  if(VRCO.isInvalid()) return; // error
 
   /******************* setup device file for **********************/
 
@@ -433,8 +429,6 @@ int IS900::serve(void)
 
 	      tracker_shm[j]->write(state[j]);
 
-	      VRCO.writeHeadTracker((const float *) state[j]);
-
 #if(0) /* debugging print */
 	      printf("\n");
 	      printf("                                       "
@@ -495,10 +489,6 @@ int IS900::serve(void)
 		 tracker_shm[j]->write(state[j]))
 		// Failed to write to shared memory, your hosed.
 		return DTKSERVICE_ERROR;
-
-	      VRCO.writeWand((const float *) state[j],
-			     (const float *) joystick,
-			     buttons);
 
 #if(0) /* debugging print */
 	      printf("\n");
